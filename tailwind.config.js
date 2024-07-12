@@ -7,14 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#fea928",
-        secondaty: "#ed8900",
+        primary: "#B76E79",
+        secondaty: "#DACOA8",
+        golden: '#29BEBE',
       },
       container: {
         center: true,
         padding:{
           DEFAULT:"1rem",
-          sm: "3rem",
+          sm: "1rem",
          },
       },
     },
