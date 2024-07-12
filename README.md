@@ -1,6 +1,6 @@
 # React + Vite + Tailwind
 
-shooping landing page
+shopping landing page
 
 
 
