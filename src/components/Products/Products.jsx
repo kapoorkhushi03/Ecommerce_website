@@ -9,7 +9,7 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Women Ethnic",
+    title: "Haldi",
     rating: 5.0,
     color: "white",
     aosDelay: "0",
@@ -17,7 +17,7 @@ const ProductsData = [
   {
     id: 2,
     img: Img2,
-    title: "Women western",
+    title: "Sweet meet",
     rating: 4.5,
     color: "Red",
     aosDelay: "200",
@@ -25,7 +25,7 @@ const ProductsData = [
   {
     id: 3,
     img: Img3,
-    title: "Goggles",
+    title: "Bachelors",
     rating: 4.7,
     color: "brown",
     aosDelay: "400",
@@ -33,7 +33,7 @@ const ProductsData = [
   {
     id: 4,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Reception",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
@@ -41,7 +41,7 @@ const ProductsData = [
   {
     id: 5,
     img: Img2,
-    title: "Fashin T-Shirt",
+    title: "All over",
     rating: 4.5,
     color: "Pink",
     aosDelay: "800",
@@ -54,15 +54,15 @@ const Products = () => {
       <div className="container">
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
-          <p data-aos="fade-up" className="text-sm text-primary">
-            Top Selling Products for you
-          </p>
+          
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Products
+          Twinning in trend
           </h1>
+          <p data-aos="fade-up" className="text-sm text-primary">
+          Two hearts, one wardrobe
+          </p>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            
           </p>
         </div>
         {/* Body section */}
@@ -95,7 +95,7 @@ const Products = () => {
           {/* view all button */}
           <div className="flex justify-center">
             <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
-              View All Button
+              View All 
             </button>
           </div>
         </div>

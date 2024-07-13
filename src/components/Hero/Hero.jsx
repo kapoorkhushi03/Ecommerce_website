@@ -9,8 +9,10 @@ const ImageList = [
     id: 1,
     img: Image1,
     title: "Checkout!!",
-    description:
-      "Latest trends only at Shagun.",
+    
+    description: 
+      "Clothing that complements your connection.",
+    
   },
   {
     id: 2,
@@ -24,7 +26,7 @@ const ImageList = [
     img: Image3,
     title: "Why Repeat?",
     description:
-      "When you can style the latest every occasion in the same price.",
+      "Perfect pairs, perfectly styled.",
   },
 ];
 
@@ -36,7 +38,7 @@ const Hero = ({ handleOrderPopup }) => {
     speed: 800,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     cssEase: "ease-in-out",
     pauseOnHover: false,
     pauseOnFocus: true,
@@ -58,7 +60,7 @@ const Hero = ({ handleOrderPopup }) => {
                     data-aos="zoom-out"
                     data-aos-duration="500"
                     data-aos-once="true"
-                    className="text-5xl sm:text-20xl lg:text-7xl font-bold text-golden"
+                    className="text-5xl sm:text-20xl lg:text-7xl font-bold text-primary"
                   >
                     {data.title}
                   </h1>
@@ -66,7 +68,7 @@ const Hero = ({ handleOrderPopup }) => {
                     data-aos="fade-up"
                     data-aos-duration="500"
                     data-aos-delay="100"
-                    className="text-lg sm:text-xl lg:text-2xl"
+                    className="text-lg sm:text-xl lg:text-2xl "
                   >
                     {data.description}
                   </p>
